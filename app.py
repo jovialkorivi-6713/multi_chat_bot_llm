@@ -641,3 +641,12 @@ if active_tool != "AI Chat":
                 mime="text/plain",
                 use_container_width=True
             )
+            st.markdown(
+    """
+    <hr>
+    <div style='text-align: center; color: gray; font-size: 14px;'>
+        Built by Jovial Korivi
+    </div>
+    """,
+    unsafe_allow_html=True
+)
